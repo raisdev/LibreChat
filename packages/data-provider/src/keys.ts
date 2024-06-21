@@ -26,6 +26,14 @@ export enum QueryKeys {
   actions = 'actions',
   assistantDocs = 'assistantDocs',
   fileDownload = 'fileDownload',
+  voices = 'voices',
+  prompts = 'prompts',
+  prompt = 'prompt',
+  promptGroups = 'promptGroups',
+  promptGroup = 'promptGroup',
+  categories = 'categories',
+  randomPrompts = 'randomPrompts',
+  roles = 'roles',
 }
 
 export enum MutationKeys {
@@ -35,7 +43,11 @@ export enum MutationKeys {
   deletePreset = 'deletePreset',
   logoutUser = 'logoutUser',
   avatarUpload = 'avatarUpload',
+  speechToText = 'speechToText',
+  textToSpeech = 'textToSpeech',
   assistantAvatarUpload = 'assistantAvatarUpload',
   updateAction = 'updateAction',
   deleteAction = 'deleteAction',
+  deleteUser = 'deleteUser',
+  updateRole = 'updateRole',
 }
